@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="testarry"></div>
+    <div id="numberSum"></div>
+    <div id="number1"></div>
+    <div id="number2"></div>
+    <div id="number3"></div>
+    <script>
+      const myArray = [3434, 56, 2];
+      let sum = 0;
+      for (let i = 0; i < myArray.length; i++) {
+        sum += myArray[i];
+      }
+      document.getElementById("testarry").innerHTML = "Sum Total = " + sum;
+      document.getElementById("numberSum").innerHTML =
+        "Total Values = " + myArray.length;
+      document.getElementById("number1").innerHTML = "Value 1 = " + myArray[0];
+      document.getElementById("number2").innerHTML = "Value 2 = " + myArray[1];
+      document.getElementById("number3").innerHTML = "Value 3 = " + myArray[2];
+    </script>
+  </body>
+</html>
